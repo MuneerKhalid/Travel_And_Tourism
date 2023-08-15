@@ -38,13 +38,27 @@ video{
 
 }
 
+.text-center{
+  text-align: center;
+ 
+}
+
+.font-weight-bolder {
+  font-weight: bolder;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 /* iframe{
   max-height: 400px !important;
 } */
 
 @media screen and (min-width: 650px) {
   .header_text_conatainer{
-    top: 120px;
+    top: 110px;
     
   }
   
@@ -52,7 +66,7 @@ video{
 
 @media screen and (min-width: 1500px) {
   .header_text_conatainer{
-    top: 140px;
+    top: 120px;
     
   }
   

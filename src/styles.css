@@ -1,8 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .head {
-  background-image: url('../assets/live.avif');
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #fff;
   padding: 100px 0;
   margin-bottom: 1rem;
@@ -27,3 +29,6 @@
   font-size: 1.1rem;
 }
 
+.text-center{
+  text-align: center;
+}
