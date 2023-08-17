@@ -47,6 +47,13 @@ body {
 }
 }
 
+.hero_head_text-container{
+  margin-top: 1rem;
+  padding: 1rem;
+  line-height: 1rem;
+  font-family: v;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -95,7 +102,7 @@ body {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   border: none;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
