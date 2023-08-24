@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function displayDestinationDetails(destination) {
     destinationDetailElement.innerHTML = `
-            <h2>${destination.name}</h2>
+            <h2 class="header1">${destination.name}</h2>
             <p>${destination.description}</p>
         `;
   }
