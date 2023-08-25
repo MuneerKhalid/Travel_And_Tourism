@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
       imgLeft: "../../../assets/rome.jpeg",
       imgRightTop: "../../../assets/rome2.jpeg",
       imgRightBottom: "../../../assets/rome3.jpeg",
-      imgProfile: "",
       detailsSub1: "8 guests ·",
       detailsSub2: "Luxury Stay ·",
       detailsSub3: "4 bed ·",
@@ -34,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
       imgLeft: "../../../assets/london.jpg",
       imgRightTop: "../../../assets/london2.jpg",
       imgRightBottom: "../../../assets/london3.jpg",
-      imgProfile: "",
       detailsSub1: "6 person ·",
       detailsSub2: "Studio ·",
       detailsSub3: "3 bed ·",
@@ -58,7 +56,6 @@ document.addEventListener("DOMContentLoaded", () => {
       imgLeft: "../../../assets/switerzer.jpg",
       imgRightTop: "../../../assets/switzerland2.jpg",
       imgRightBottom: "../../../assets/switzerland3.jpg",
-      imgProfile: "",
       detailsSub1: "10 guests ·",
       detailsSub2: "Nature ·",
       detailsSub3: "2 bed ·",
@@ -82,7 +79,6 @@ document.addEventListener("DOMContentLoaded", () => {
       imgLeft: "../../../assets/thalin.webp",
       imgRightTop: "../../../assets/thailand2.jpeg",
       imgRightBottom: "../../../assets/thailand3.jpeg",
-      imgProfile: "",
       detailsSub1: "5 persons ·",
       detailsSub2: "Beach ·",
       detailsSub3: "2 bed ·",
@@ -106,7 +102,6 @@ document.addEventListener("DOMContentLoaded", () => {
       imgLeft: "../../../assets/ohio.webp",
       imgRightTop: "../../../assets/ohio2.jpg",
       imgRightBottom: "../../../assets/ohio3.jpg",
-      imgProfile: "",
       detailsSub1: "7 Persons ·",
       detailsSub2: "Forest Bar ·",
       detailsSub3: "3 bed ·",
@@ -123,28 +118,27 @@ document.addEventListener("DOMContentLoaded", () => {
       elevator: "Hiking",
     },
     {
-      headText: "Lovely Studio with Burj Khalifa views from Balcony.",
-      rating: "5.0 ·",
-      review: "20 reviews ",
-      location: "Dubai, United Arab Emirates",
-      imgLeft: "../../../assets/dubai1.webp",
-      imgRightTop: "../../../assets/dubai2.webp",
-      imgRightBottom: "../../../assets/dubai3.webp",
-      imgProfile: "",
-      detailsSub1: "4 guests ·",
+      headText: "Exploring Indonesia's Rich Culture and Natural Beauty",
+      rating: "4.5 ·",
+      review: "151 reviews ",
+      location: "Ubud, Indonesia",
+      imgLeft: "../../../assets/ubud.webp",
+      imgRightTop: "../../../assets/ubud2.avif",
+      imgRightBottom: "../../../assets/ubud3.jpg",
+      detailsSub1: "9 persons ·",
       detailsSub2: "Studio ·",
-      detailsSub3: "1 bed ·",
-      detailsSub4: "1 bath",
-      price: "5.42k Tax included",
-      description: "From our spacious balcony you can enjoy a unique view of Burj Khalifa and the magic fountains. Enjoy breakfast in the morning at our cozy dining table overlooking Dubai's old town or layback at night in our comfortable lounge seats - enjoying Burj Khalifa's video and laser shows!<br><br>Also from our studio and from the comfortable bed you can enjoy full Burj Khali ...",
-      view: "City skyline view",
+      detailsSub3: "3 bed ·",
+      detailsSub4: "2 bath",
+      price: "6.21k Tax included",
+      description: "Immerse yourself in the enchanting heart of Bali with a trip to Ubud, Indonesia. Surrounded by lush rice terraces and vibrant arts scenes, Ubud offers a serene escape. Explore ancient temples, indulge in Balinese cuisine, and rejuvenate your spirit in this cultural haven nestled amidst tropical beauty...",
+      view: "Glasmorising Scenery",
       wifi: "Wifi",
-      parking: "Free parking on premises",
-      TV: "C50 HDTV with Amazon Prime Video, Netflix, premium cable, standard cable",
-      kitchen: "Kitchen",
-      DW: "Dedicated workspace",
-      pool: "Shared pool - available all year",
-      elevator: "Elevator",
+      parking: "Free horses on premises",
+      TV: " Premium cable",
+      kitchen: "Outdoor Kitchen",
+      DW: "Indoor workspace",
+      pool: "Private pool - available all year",
+      elevator: "Cable cart",
     },
   ];
 
@@ -167,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="hero-sub-text-container">
       <div class="hero-sub-text-left">
         <span style="font-weight: 700;">
-          <img src="" alt="star" height="15px">
+          <img src="../../../assets/icons8-star-50.png" alt="star" height="15px">
           ${destination.rating}
         </span>
         <span style="text-decoration: underline; font-weight: 700;">
@@ -183,8 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       <div class="hero-sub-text-right">
         <span>
-          <img src="" alt="heart" height="15px">
-          Save
+          <img src="../../../assets/heart.png" alt="heart" height="20px">
         </span>
       </div>
     </div>
@@ -210,9 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="details-head">
           <p class="details-head-text">Entire trip hosted by Aventura Dreamscapes</p>
         </div>
-        <div class="details-head-profile">
-          <img src=${destination.imgProfile} alt="profile">
-        </div>
+        
       </div>
       
       <div class="details-sub-text">
@@ -225,18 +216,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <div class="details-info-container">
       <div class="info1">
-        <span><img src="" alt="logo"></span>
+        <span><img src="../../../assets/icons8-price-64.png" alt="logo" height="35px"></span>
         <span><p class="info-head-text">Cost of trip</p>
         <p class="info-sub-text">${destination.price}</p></span>
       </div>
       <div class="info1">
-        <span><img src="" alt="logo"></span>
+        <span><img src="../../../assets/icons8-check-in-64.png" alt="logo" height="38px"></span>
         <span><p class="info-head-text">Self check-in</p>
         <p class="info-sub-text">You can check in with the building staff.
         </p></span>
       </div>
       <div class="info1">
-        <span><img src="" alt="logo"></span>
+        <span><img src="../../../assets/icons8-refund-64.png" alt="logo" height="33px"></span>
         <span><p class="info-head-text">Free cancellation for 48 hours.</p>
         <p class="info-sub-text"></p></span>
       </div>
@@ -313,6 +304,18 @@ document.addEventListener("DOMContentLoaded", () => {
             <span>${destination.elevator}</span>
           </div>
         </div>
+      </div>
+      <div class="reserve-container">
+        <p class="reserve-head-text">Reserve Now</p>
+        <p class="reserve-sub-text">10% discount available</p>
+        <p class="reserve-price-text">
+          $${destination.price}
+        </p>
+        <button class="reserve-btn">
+          <p class="reserve-btn-text">
+            Reserve
+          </p>
+        </button>
       </div>
     </div>
   </div>
