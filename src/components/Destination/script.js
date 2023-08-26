@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       headText: "Interesting Rome Structure view on firsthand",
       rating: "5.0 ·",
-      review: "32 reviews ",
+      review: "169 reviews ",
       location: "Rome, Italy",
       imgLeft: "../../../assets/rome.jpeg",
       imgRightTop: "../../../assets/rome2.jpeg",
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       headText: "London Calling Urban Adventures and Historic Wonders.",
       rating: "4.7 ·",
-      review: "26 reviews ",
+      review: "102 reviews ",
       location: "London, UK",
       imgLeft: "../../../assets/london.jpg",
       imgRightTop: "../../../assets/london2.jpg",
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
       detailsSub2: "Forest Bar ·",
       detailsSub3: "3 bed ·",
       detailsSub4: "1 bath",
-      price: "5.42k, Tax included",
+      price: "7.62k, Tax included",
       description: "Embark on a journey to Ohio, where vibrant cities and charming small towns await. Explore the bustling streets of Columbus, experience the cultural richness of Cleveland's museums, and savor the scenic beauty of Hocking Hills. From the Rock and Roll Hall of Fame to the serene shores of Lake Erie, Ohio offers a diverse and unforgettable travel experience...",
       view: "Forest view",
       wifi: "Wifi",
