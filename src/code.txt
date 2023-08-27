@@ -1,0 +1,23 @@
+try
+            {
+                using (var db = new MuhammadMuneerUddin_13373DataContext())
+                {
+                    userdata edata = new userdata()
+                    {
+                        Name = TextBox1.Text,
+                        FatherName = TextBox2.Text,
+                        DOB = Convert.ToDateTime(TextBox3.Text),
+                        Gender = TextBox4.Text,
+                        LastQualification = TextBox5.Text,
+                        CurrentJobStatus = TextBox6.Text
+                    };
+                    db.userdatas.InsertOnSubmit(edata);
+                    db.SubmitChanges();
+                    Label7.Text = "New Info Added";
+                }
+            }
+            catch (Exception ex)
+            {
+                Label7.Text = ex.Message;
+            }
+        }
