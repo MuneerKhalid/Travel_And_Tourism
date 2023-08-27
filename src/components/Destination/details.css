@@ -61,6 +61,7 @@
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   font-size: 14px;
   overflow: hidden;
+  z-index: 1;
   
 }
 

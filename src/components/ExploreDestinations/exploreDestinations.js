@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       img: "../../../assets/thalin.webp",
-      title: "aling Ngam, Thailand",
+      title: "Thaling Ngam, Thailand",
       price: "$3k",
       days: "3 days trip",
       index: "3"
@@ -44,11 +44,25 @@ document.addEventListener("DOMContentLoaded", () => {
       index: "5"
     },
     {
-      img: "../../../assets/london.jpg",
-      title: "London, UK",
-      price: "$4.2k",
-      days: "12 days",
+      img: "../../../assets/finland1.webp",
+      title: "Kittila, Finland",
+      price: "$8.3k",
+      days: "7 days",
       index: "6"
+    },
+    {
+      img: "../../../assets/southafrica1.webp",
+      title: "Tulbagh, SouthAfrica",
+      price: "$3.9k",
+      days: "4 days",
+      index: "7"
+    },
+    {
+      img: "../../../assets/indonesia1.webp",
+      title: "Sidemen, Indonesia",
+      price: "$18k",
+      days: "13 days",
+      index: "8"
     },
   ];
 
